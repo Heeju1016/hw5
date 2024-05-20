@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'NanumSquareNeo-Variable';
+    padding: 0;
+    margin: 0;
+    background-color: #92CAFF;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 50%;
+    min-width: 300px;
+    max-width: 600px;
+    padding: 40px;
+}
+
+form h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+
+form {
+    text-align: center;
+    position: relative;
+}
+
+form input {
+    width: 100%;
+    padding: 20px 30px;
+    outline: none;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'NanumSquareNeo-Variable';
+    font-size: 16px;
+}
+
+form input::placeholder {
+    font-family: 'NanumSquareNeo-Variable';
+    font-size: 15px;
+}
+
+form button {
+    position: absolute;
+    width: 50px;
+    height: 58px;
+    margin-left : 5px;
+
+}
+
+li {
+    line-height: 30px;
+}
+
+
+main {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+main .list {
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+    height: 100%;
+    border-bottom: 2px solid #92CAFF;
+}
+
+.list div {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    width: 80%;
+    color: #3F6181;
+}
+
+.list div p {
+    width: 80%;
+}
+
+input[type="checkbox"]+label {
+    cursor: pointer;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #92CAFF;
+    border-radius: 5px;
+    position: relative;
+    margin-right: 10px;
+}
+
+input[type="checkbox"]:checked+label::after {
+    content: '✓';
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    top: 0;
+    text-align: center;
+    color: #fff;
+    background-color: #92CAFF;
+}
+
