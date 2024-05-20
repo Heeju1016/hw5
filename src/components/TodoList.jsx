@@ -5,7 +5,7 @@ import AddBtn from '../assets/img/add.svg'
 const TodoList = () => {
     const [ inputValue, setInputValue] = useState('');
     const [ todo, setTodo ] = useState( [
-        'wwwww'
+        'wwwww', 'wwww'
     ])
     const createTodo = (e) => {
         e.preventDefault()
